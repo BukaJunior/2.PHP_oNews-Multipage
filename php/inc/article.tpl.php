@@ -1,13 +1,14 @@
-<h2 class="right__title">Lorem ipsum dolor sit amet</h2>
+<h2 class="right__title"><?= $article['titre'] ?></h2>
             <div class="posts">
               <article class="post--solo">
-                <a href="" class="post__category post__category--color-team">team</a>
+                
+                <a href="" class="post__category post__category--color-team"><?= $article['catégorie'] ?></a>
                 <div class="post__meta">
-                  <img class="post__author-icon" src="../images/icon-dar.png" alt="">
-                  <strong class="post__author">Darren Collison</strong>
-                  <time datetime="2018-02-10">le 10 février 2018</time>
+                  <img class="post__author-icon" src="<?= $article['l\'image de l\'auteur'] ?>" alt="">
+                  <strong class="post__author"><?= $article['auteur'] ?></strong>
+                  <time datetime="2018-02-10"><?= $article['date de publication'] ?></time>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores nobis nihil molestiae! Assumenda, repellendus quasi alias praesentium, reiciendis qui, labore dolore est vero hic voluptas atque officia dolor. Nihil vero amet repellendus. Dolorum nisi suscipit dolor dicta! Minima accusantium dignissimos, est vero vel quae inventore vitae iusto nobis. Minus sapiente laboriosam veritatis dolorum omnis aperiam, dolores rerum in doloremque officia eveniet, vel dicta maxime explicabo quibusdam iure numquam laborum corrupti maiores pariatur deleniti voluptate libero ad? Delectus quae facere a laborum asperiores repellendus pariatur commodi voluptatem mollitia aliquid enim similique consequuntur, dolorum vero dignissimos veritatis ratione deserunt velit laudantium exercitationem dolore corporis. Culpa magni similique dolore dolor vitae error nam voluptates rerum quas. Consectetur voluptatum accusantium inventore consequuntur non, esse corporis placeat. Rerum voluptatem ab natus nihil mollitia, odio distinctio maxime tempore aliquid tenetur, iure error magni! Perferendis illum itaque saepe eum? Maiores eos mollitia ipsam quis totam est aperiam ducimus minima possimus quia ad, repudiandae provident necessitatibus ratione ea exercitationem laudantium eveniet voluptatum rem. Non iure ducimus nulla exercitationem alias voluptatibus quo, tenetur ipsa velit deleniti ratione blanditiis placeat eius veritatis reprehenderit fuga tempora. A, dicta debitis unde enim vel quae impedit accusamus rem libero dolorem corrupti aut tempora facilis ducimus distinctio nam quod! Itaque, reiciendis unde accusamus culpa architecto delectus rerum non dignissimos officia libero voluptas aliquam quos quisquam esse accusantium, sint corrupti. At possimus error repudiandae pariatur voluptatem necessitatibus enim harum quasi ea consequuntur vel, totam odio dicta optio laboriosam sapiente iure cupiditate porro quidem quae nostrum accusamus, ab non. Fugit atque excepturi, aspernatur optio perferendis iusto iure! Facere, doloremque. Ipsum esse eos, sapiente repellat aliquam ratione officia earum sunt? Quam iusto ratione harum ad, dolor nam pariatur vero repellat recusandae, porro sit fuga iste voluptatem! Consequuntur facilis nostrum illo aperiam eos deserunt est, veritatis tempora delectus aliquid dicta asperiores pariatur quos ab repellendus animi optio minus cum? Qui eos suscipit tempora a, adipisci officia? Atque ipsa earum natus, eligendi eius in ad, quos porro sed soluta eveniet corrupti ducimus illo quibusdam, pariatur sequi! Rerum deleniti quas ea debitis. Nulla sed sunt quod, harum sit, voluptatem explicabo error cumque porro dolore expedita, accusamus voluptatibus voluptas nobis id itaque vel quam odio. Exercitationem tenetur excepturi deserunt suscipit maxime dicta, possimus quibusdam adipisci eveniet quae cum, enim minima neque vel praesentium, repudiandae quod sapiente? Dolor accusamus totam vel similique sapiente neque impedit, rerum ipsa, quasi, a ducimus cum!</p>
+                <p><?= $article['texte'] ?></p>
                 <a href="index.php" class="post__link">Back to home</a>
               </article>
             </div>
