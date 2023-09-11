@@ -19,9 +19,9 @@
             </div>
             <nav>
               <ul class="left__nav">
-                <li class="left__nav-item"><a href="./plan_de_site.html" class="left__nav-link">Plan du site</a></li>
-                <li class="left__nav-item"><a href="./mentions_legales.html" class="left__nav-link">Mentions légales</a></li>
-                <li class="left__nav-item"><a href="./contact.html" class="left__nav-link">Contact</a></li>
+                <?php foreach ($linkNav as $linkNavName => $linkNavValue): ?>
+                  <li class="left__nav-item"><a href="<?= $linkNavValue ?>" class="left__nav-link"><?= $linkNavName ?></a></li>
+                <?php endforeach; ?>
               </ul>
             </nav>
         </header>
