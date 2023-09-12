@@ -2,7 +2,7 @@
             <div class="posts">
               <article class="post--solo">
                 
-                <a href="" class="post__category post__category--color-team"><?= $article['catégorie'] ?></a>
+                <a href="" class="post__category post__category--color-<?= $article['catégorie'] ?>"><?= $article['catégorie'] ?></a>
                 <div class="post__meta">
                   <img class="post__author-icon" src="<?= $article['l\'image de l\'auteur'] ?>" alt="">
                   <strong class="post__author"><?= $article['auteur'] ?></strong>
