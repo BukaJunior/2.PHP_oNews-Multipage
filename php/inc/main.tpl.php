@@ -67,7 +67,3 @@
             <a href="article6.php" class="post__link">Continue reading</a>
           </article>
         </div>
-      </main>
-    </div>
-</body>
-</html>

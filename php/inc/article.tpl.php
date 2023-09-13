@@ -12,9 +12,3 @@
                 <a href="index.php" class="post__link">Back to home</a>
               </article>
             </div>
-          </main>
-    </div>
-    
-    
-</body>
-</html>
