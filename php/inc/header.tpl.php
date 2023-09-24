@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <header class="left">
-            <h1 class="left__title">O'Clock Students News</h1>
+            <h1 class="left__title"><a href="index.php">O'Clock Students News</a></h1>
             <div class="left__paragraph">
               <h2 class="left__subtitle"><strong class="left__subtitle-strong">Latest news</strong> from our students</h2>
               <p>
