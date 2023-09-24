@@ -7,7 +7,3 @@
             <a href="./index.php" class="post__link">back to home</a>
           </div>
         </div>
-      </main>
-    </div>
-</body>
-</html>

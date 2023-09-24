@@ -17,12 +17,6 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Integer iaculis mi urna, a pulvinar quam adipiscing ut. Vivamus vel vestibulum mauris.
               </p>
             </div>
-            <nav>
-              <ul class="left__nav">
-                <?php foreach ($linkNav as $linkNavName => $linkNavValue): ?>
-                  <li class="left__nav-item"><a href="<?= $linkNavValue ?>" class="left__nav-link"><?= $linkNavName ?></a></li>
-                <?php endforeach; ?>
-              </ul>
-            </nav>
+        <?php include "nav.tpl.php"; ?>   
         </header>
         <main class="right">
