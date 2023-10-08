@@ -1,8 +1,16 @@
 <h2 class="right__title">Nous contacter</h2>
         <div class="posts">
           <div class="post post--solo">
+
+            <?php
+
+              var_dump($_POST);
+              var_dump($_GET);
+
+              echo "Merci " . $_POST['nom'] . " de nous avoir contacté";
+            ?>
             
-            <form action="">
+            <form action="contact.php" method="POST">
               <div>
                 <label for="nom">Votre nom</label>
 
@@ -40,10 +48,22 @@
               
               <div>
                 <label for="Mr">Monsieur</label>
-                <input type="radio" name="civilite" id="Mr">
+                <input type="radio" name="civilite" id="Monsieur">
                 <label for="Me">Madame</label>
-                <input type="radio" name="civilite" id="Me">
+                <input type="radio" name="civilite" id="Madame">
               </div>
+              
+              <div>
+                <label for="pays">Votre pays</label>
+                <select name="pays" id="pays">
+                  <option value="france">France</option>
+                  <option value="espagne">Espagne</option>
+                  <option value="italie">Italie</option>
+                </select>
+              </div>
+
+
+
               <button type="submit">Envoyer votre nom</button>
 
             </form>
