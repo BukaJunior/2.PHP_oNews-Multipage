@@ -4,10 +4,28 @@
 
             <?php
 
-              var_dump($_POST);
-              var_dump($_GET);
+            var_dump($_POST);
+            // var_dump($_GET);
 
-              echo "Merci " . $_POST['nom'] . " de nous avoir contacté";
+            // Si l'entrée nom existe dans le tableau $_POST
+            if(isset($_POST['nom'])) {
+
+              // Si l'entrée est différente d'une chaine vide
+              if($_POST['nom'] != "") {
+
+                // On récupère la valeur de l'entrée nom dans une variable
+                $nom = $_POST['nom'];
+
+                // On affiche dans un message de remerciement le nom de l'utilisateur
+                echo "Merci " . $nom . " de nous avoir contacté";
+
+              } else {
+
+                // Sinon, c'est qu'il existe mais contient une chaine vide.
+                echo " Vous n'avez pas renseigné votre nom";
+              }
+              
+            }
             ?>
             
             <form action="contact.php" method="POST">
