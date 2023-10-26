@@ -1,7 +1,8 @@
+
 <?php
 
 $postList = [
-    // On redéfini l'index des articles pour qu'ils commencent à 1
+    // On redéfini l'index des articles pour qu'ils commencent à 1.
     1 => [
         'titre' => 'Lorem ipsum dolor article 1',
         'auteur' => 'Darren Collison',
