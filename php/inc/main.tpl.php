@@ -11,10 +11,10 @@
               <div class="post__meta">
                 <img class="post__author-icon" src="<?= $currentPost['l\'image de l\'auteur']?>" alt="">
                 <strong class="post__author"><?= $currentPost['auteur']?></strong>
-                <time datetime="2018-02-10"><?= $currentPost['date de publication']?></time>
+                <time datetime="2018-02-10">le<?= $currentPost['date de publication']?></time>
               </div>
               <p><?= substr($currentPost['texte'], 0, 100) . " ..."?></p>
-              <a href="article<?= $key?>.php" class="post__link">Continue reading</a>
+              <a href="article.php?id=<?= $key ?>" class="post__link">Continue reading</a>
             </article>
             
           <?php endforeach; ?>

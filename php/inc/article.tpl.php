@@ -6,7 +6,7 @@
                 <div class="post__meta">
                   <img class="post__author-icon" src="<?= $article['l\'image de l\'auteur'] ?>" alt="">
                   <strong class="post__author"><?= $article['auteur'] ?></strong>
-                  <time datetime="<?= $article['date de publication'] ?>"> le <?= $date ?></time>
+                  <time datetime="<?= $article['date de publication'] ?>"> le <?= $article['date de publication'] ?></time>
                 </div>
                 <p><?= $article['texte'] ?></p>
                 <a href="index.php" class="post__link">Back to home</a>
